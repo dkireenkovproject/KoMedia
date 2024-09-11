@@ -131,10 +131,10 @@
       bottom: -10%;
       height: 300px;
     }
-    // @media (max-width: 372px) {
-    //   bottom: -10%;
-    //   height: 350px;
-    // }
+    @media (max-width: 372px) {
+      bottom: -10%;
+      height: 350px;
+    }
   }
   //   &__img {
   //     width: 350px;
