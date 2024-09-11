@@ -20,6 +20,7 @@
 
 <style scoped lang="scss">
 .hero {
+  position: relative;
   padding: 130px 0 0 0;
   margin-bottom: 50px;
   background-image: url(/img/Layer.png);
@@ -27,7 +28,7 @@
   background-size: 100% 100%;
   background-position: top;
   min-height: 560px;
-  z-index: 1;
+  z-index: 1999999;
   @media (max-width: 930px) {
     margin-bottom: 350px;
     min-height: 590px;
@@ -77,7 +78,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      z-index: 999;
+      z-index: 1111111;
       min-width: 250px;
       min-height: 70px;
     }
@@ -107,11 +108,11 @@
     @media (max-width: 930px) {
       display: block;
       position: absolute;
-      bottom: 0;
+      bottom: -20%;
       left: 0;
       width: 100%;
       height: 500px;
-      z-index: -1;
+      z-index: -1111111;
       background-repeat: no-repeat;
     }
     // @media (max-width: 716px) {
@@ -123,18 +124,18 @@
     // @media (max-width: 466px) {
     //   bottom: -40%;
     // }
-    // @media (max-width: 400px) {
-    //   bottom: -30%;
-    //   height: 400px;
-    // }
-    // @media (max-width: 358px) {
-    //   bottom: -10%;
-    //   height: 300px;
-    // }
-    // @media (max-width: 372px) {
-    //   bottom: -10%;
-    //   height: 350px;
-    // }
+    @media (max-width: 400px) {
+      bottom: -0%;
+      height: 400px;
+    }
+    @media (max-width: 358px) {
+      bottom: 0%;
+      height: 300px;
+    }
+    @media (max-width: 372px) {
+      bottom: 0%;
+      height: 350px;
+    }
   }
   //   &__img {
   //     width: 350px;
