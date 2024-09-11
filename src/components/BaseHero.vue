@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
-    <div class="container">
-      <div class="hero__wrapper">
+    <div class="hero__wrapper">
+      <div class="container">
         <ul class="list-reset hero__items">
           <li class="hero__item"><img class="hero__img" src="/img/IMG_2494.png" alt="hero1" /></li>
           <li class="hero__item hero__dop">
@@ -11,8 +11,8 @@
           <img class="hero__imgVector" src="/img/vector321.svg" alt="vector" />
         </ul>
       </div>
+      <img class="hero__imgVector2" src="/img/hero9301.jpg" alt="vector" />
     </div>
-    <img class="hero__imgVector2" src="/img/hero9301.jpg" alt="vector" />
   </section>
 </template>
 
@@ -20,7 +20,6 @@
 
 <style scoped lang="scss">
 .hero {
-  position: relative;
   padding: 130px 0 0 0;
   margin-bottom: 50px;
   background-image: url(/img/Layer.png);
@@ -28,7 +27,7 @@
   background-size: 100% 100%;
   background-position: top;
   min-height: 560px;
-  z-index: 1999999;
+  z-index: 1;
   @media (max-width: 930px) {
     margin-bottom: 350px;
     min-height: 590px;
@@ -64,7 +63,9 @@
     gap: 85px;
     width: 100%;
   }
-
+  &__wrapper {
+    position: relative;
+  }
   &__dop {
     @media (max-width: 930px) {
       display: none;
@@ -78,7 +79,6 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      z-index: 1111111;
       min-width: 250px;
       min-height: 70px;
     }
@@ -105,22 +105,23 @@
   }
   &__imgVector2 {
     display: none;
+
     @media (max-width: 930px) {
       display: block;
       position: absolute;
-      bottom: -20%;
+      top: 100%;
       left: 0;
       width: 100%;
       height: 500px;
-      z-index: -1111111;
+      z-index: -1;
       background-repeat: no-repeat;
     }
     // @media (max-width: 716px) {
     //   bottom: -74%;
     // }
-    // @media (max-width: 492px) {
-    //   bottom: -50%;
-    // }
+    @media (max-width: 492px) {
+      height: 400px;
+    }
     // @media (max-width: 466px) {
     //   bottom: -40%;
     // }
@@ -137,9 +138,5 @@
       height: 350px;
     }
   }
-  //   &__img {
-  //     width: 350px;
-  //     height: 278px;
-  //   }
 }
 </style>
