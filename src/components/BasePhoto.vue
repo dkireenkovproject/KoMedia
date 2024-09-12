@@ -21,7 +21,7 @@
         <div class="photo__content930">
           <span class="photo__text">Больше наших работ</span>
           <span class="photo__text2">фото видео рилс трансляция</span>
-          <a class="photo__link" href="#">Смотреть</a>
+          <a class="photo__link" target="_blank" href="https://t.me/KOmediatg">Смотреть</a>
         </div>
       </div>
     </div>
