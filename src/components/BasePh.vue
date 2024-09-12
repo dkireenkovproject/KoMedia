@@ -163,6 +163,9 @@
       font-size: 25px;
     }
     @media (max-width: 474px) {
+      font-size: 18px;
+    }
+    @media (max-width: 354px) {
       font-size: 16px;
     }
   }

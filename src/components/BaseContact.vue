@@ -20,7 +20,7 @@
     padding: 100px 0 20px 0;
   }
   @media (max-width: 450px) {
-    padding: 50px 0 20px 0;
+    padding: 50px 0 0px 0;
   }
   &__wrapper {
     display: flex;
