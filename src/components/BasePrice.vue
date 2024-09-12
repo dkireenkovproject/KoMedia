@@ -12,7 +12,7 @@
         </div>
         <div class="price__table">
           <ul class="list-reset price__list">
-            <li class="price__item">
+            <li class="price__item price__dop1">
               <span class="price__span">Лайт пакет</span>
               <div class="price__desc">
                 <span class="price__desc-title"
@@ -20,23 +20,23 @@
                   обработке за час</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Фото</span> от 50 в обработке за час</span
+                  ><span style="color: #fff">Фото</span> - от 50 в обработке за час</span
                 >
               </div>
               <a class="price__link" href="/">35.000</a>
             </li>
-            <li class="price__item">
-              <span class="price__span">Лайт пакет</span>
+            <li class="price__item price__dop2">
+              <span class="price__span">Полный пакет</span>
               <div class="price__desc">
                 <span class="price__desc-title"
                   ><span style="color: #fff">Видео</span> - длительность до 8 минут, либо два видео
                   по 4 минуты</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Фото</span> от 150 в обработке за час</span
+                  ><span style="color: #fff">Фото</span> - от 150 в обработке за час</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Рилс -</span> 8 видео (каждое продолжительностью до
+                  ><span style="color: #fff">Рилс</span> - 8 видео (каждое продолжительностью до
                   минуты)</span
                 >
                 <span class="price__desc-title"
@@ -45,34 +45,34 @@
               </div>
               <a class="price__link" href="/">70.000</a>
             </li>
-            <li class="price__item">
-              <span class="price__span">Лайт пакет</span>
+            <li class="price__item price__dop3">
+              <span class="price__span">Базовый пакет</span>
               <div class="price__desc">
                 <span class="price__desc-title"
                   ><span style="color: #fff">Видео</span> - длительность 5 минут, либо два видео по
                   2 минуты</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Фото</span> от 100 в обработке за час</span
+                  ><span style="color: #fff">Фото</span> - от 100 в обработке за час</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Рилс -</span> 5 видео (каждое продолжительностью до
+                  ><span style="color: #fff">Рилс</span> - 5 видео (каждое продолжительностью до
                   минуты)</span
                 >
               </div>
               <a class="price__link" href="/">50.000</a>
             </li>
-            <li class="price__item">
-              <span class="price__span">Лайт пакет</span>
+            <li class="price__item price__dop4">
+              <span class="price__span">Расширенный пакет</span>
               <div class="price__desc">
                 <span class="price__desc-title"
                   ><span style="color: #fff">Видео</span> - суммарная длительность до 15 минут</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Фото</span> от 200 в обработке за час</span
+                  ><span style="color: #fff">Фото</span> - от 200 в обработке за час</span
                 >
                 <span class="price__desc-title"
-                  ><span style="color: #fff">Рилс</span> 15 видео (каждое продолжительностью до
+                  ><span style="color: #fff">Рилс</span> - 15 видео (каждое продолжительностью до
                   минуты)</span
                 >
                 <span class="price__desc-title"
@@ -237,6 +237,26 @@
     @media (max-width: 450px) {
       font-size: 14px;
       max-width: 100%;
+    }
+  }
+  &__dop1 {
+    @media (max-width: 930px) {
+      order: 1;
+    }
+  }
+  &__dop2 {
+    @media (max-width: 930px) {
+      order: 3;
+    }
+  }
+  &__dop3 {
+    @media (max-width: 930px) {
+      order: 2;
+    }
+  }
+  &__dop4 {
+    @media (max-width: 930px) {
+      order: 4;
     }
   }
 }
