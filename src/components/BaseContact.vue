@@ -4,7 +4,7 @@
       <div class="contact__wrapper">
         <h3 class="contact__title">Contacts</h3>
         <span class="contact__text">Оформить заказ или задать вопрос </span>
-        <a class="contact__link" href="/">написать</a>
+        <a class="contact__link" target="_blank" href="https://t.me/KOmediauserbot">написать</a>
         <a class="contact__tel" href="tel:+79266719933">8(926)-671-99-33</a>
       </div>
     </div>

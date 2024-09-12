@@ -12,7 +12,7 @@
           </ul>
           <div class="content__text">
             <span class="content__span">Больше наших работ </span>
-            <a href="/" class="content__link">Смотреть</a>
+            <a href="https://t.me/KOmediatg" target="_blank" class="content__link">Смотреть</a>
           </div>
         </div>
       </div>
